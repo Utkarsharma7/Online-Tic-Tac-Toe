@@ -4,13 +4,14 @@ import { useNavigate } from 'react-router-dom'
 function LogIn({isOpen,onClose}) {
     const navigate = useNavigate();
     const [name, setName] = useState("");
+    const url = import.meta.env.VITE_API_BASE_URL;
     const handleSubmit = async () => {
         if (!name.trim()) {
             alert("Name should not be empty!");
             return;
         }
         try {
-            const response = await axios.post('http://localhost:8000/createtoken', { name })
+            const response = await axios.post(`${url}/createtoken`, { name })
             const data = response.data;
             if (data.token) {
                 localStorage.setItem('name', name);

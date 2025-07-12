@@ -6,8 +6,9 @@ import { io } from 'socket.io-client'
 let socket = null;
 
 const getSocket = () => {
+  const url = import.meta.env.VITE_API_BASE_URL;
   if (!socket || socket.disconnected) {
-    socket = io('http://localhost:8000');
+    socket = io(url);
   }
   return socket;
 };
