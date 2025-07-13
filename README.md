@@ -31,6 +31,9 @@ A real-time multiplayer Tic-Tac-Toe game built with React, Node.js, and Socket.i
 - **Error Handling**: Robust error handling for network issues
 - **Cross-platform**: Works on all modern browsers
 
+###ScreenShots
+<img width="1882" height="840" alt="Screenshot 2025-07-13 141548" src="https://github.com/user-attachments/assets/86e5ad4d-d5d5-4ac6-9c8b-2c6c2b061f1c" />
+
 ## 🚀 Live Demo
 
 **🎮 [Play Now](https://online-tic-tac-toe-frontend.onrender.com/)**
