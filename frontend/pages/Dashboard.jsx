@@ -4,7 +4,7 @@ import CreateRoom from '../components/CreateRoom'
 function Dashboard() {
   const [isJoinRoomOpen, setIsJoinRoomOpen] = useState(false);
   const [isCreateRoomOpen,setIsCreateRoomOpen] = useState(false);
-  const name=localStorage.getItem('name');
+  const name=sessionStorage.getItem('name');
   return (
     <div>
       <div className="min-h-screen flex flex-col justify-center items-center bg-black gap-20">

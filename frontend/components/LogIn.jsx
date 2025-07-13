@@ -14,7 +14,7 @@ function LogIn({isOpen,onClose}) {
             const response = await axios.post(`${url}/createtoken`, { name })
             const data = response.data;
             if (data.token) {
-                localStorage.setItem('name', name);
+                sessionStorage.setItem('name', name);
                 onClose();
                 console.log(name)
                 navigate('/dashboard');

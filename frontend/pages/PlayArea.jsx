@@ -24,7 +24,7 @@ function PlayArea() {
     }
 
     const { roomCode: code, symbol: playerSymbol, gameData } = location.state;
-    const name = localStorage.getItem('name') || '';
+    const name = sessionStorage.getItem('name') || '';
     
     // Initialize state with data from CreateRoom/JoinRoom
     setRoomCode(code);

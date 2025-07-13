@@ -27,7 +27,7 @@ function CreateRoom({isOpen, onClose}) {
     }, [isOpen]);
 
     const handleSubmit = async () => {
-        const name = localStorage.getItem('name') || '';
+        const name = sessionStorage.getItem('name') || '';
         if (!roomCode.trim()) {
             alert("Room code should not be empty!");
             return;
