@@ -4,7 +4,7 @@ import Particles from '../Effect/Particles/Particles'
 function Homepage() {
     const [isLogInOpen, setIsLogInOpen] = useState(false);
     return (
-        <div className="relative min-h-screen flex flex-col justify-center items-center bg-black gap-20 overflow-hidden">
+        <div className="relative min-h-screen flex flex-col justify-center items-center bg-black gap-10 overflow-hidden">
             {/* Background particles */}
             <Particles particleCount={400} speed={1.5} sizeRandomness={3.0} cameraDistance={15}/>
             
@@ -18,7 +18,11 @@ function Homepage() {
                 at ease 
                 <p>1v1 Online Showdown</p>
             </p>
+           <div className='flex flex-col items-center justify-center'>
+            <p className='text-white text-xl font-bold'>Duplicate this tab before entering to simulate two player environment</p>
            
+           </div>
+           <p className='text-white text-xl underline font-bold'>Hosted on Render.com</p>
             <div className="flex flex-col sm:flex-row gap-6">
                 
                 <a

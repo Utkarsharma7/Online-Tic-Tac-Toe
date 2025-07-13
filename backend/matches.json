@@ -239,5 +239,46 @@
       }
     ],
     "timestamp": "2025-07-12T22:07:53.966Z"
+  },
+  {
+    "roomCode": "love",
+    "players": [
+      "utkarsh",
+      "shravani"
+    ],
+    "winner": "shravani",
+    "moves": [
+      {
+        "index": 0,
+        "symbol": "X",
+        "player": "utkarsh"
+      },
+      {
+        "index": 1,
+        "symbol": "O",
+        "player": "shravani"
+      },
+      {
+        "index": 3,
+        "symbol": "X",
+        "player": "utkarsh"
+      },
+      {
+        "index": 4,
+        "symbol": "O",
+        "player": "shravani"
+      },
+      {
+        "index": 2,
+        "symbol": "X",
+        "player": "utkarsh"
+      },
+      {
+        "index": 7,
+        "symbol": "O",
+        "player": "shravani"
+      }
+    ],
+    "timestamp": "2025-07-13T07:59:38.097Z"
   }
 ]

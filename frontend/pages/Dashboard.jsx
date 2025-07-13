@@ -8,6 +8,7 @@ function Dashboard() {
   return (
     <div>
       <div className="min-h-screen flex flex-col justify-center items-center bg-black gap-20">
+        
         <p className="mt-5 text-15xl sm:text-7xl lg:text-8xl font-bold leading-tight text-white text-center font-pj">
            Welcome {name}!
         </p>
@@ -31,6 +32,9 @@ function Dashboard() {
                         Join Room
                     </a>     
                           
+                     </div>
+                     <div>
+                      <p className='text-white text-xl font-bold'>Creating a room or joining a room will be a little slow on the first time as this app is deployed on the free tier of render</p>
                      </div>
         <JoinRoom isOpen={isJoinRoomOpen} onClose={() => setIsJoinRoomOpen(false)} />
         <CreateRoom isOpen={isCreateRoomOpen} onClose={() => setIsCreateRoomOpen(false)} />
