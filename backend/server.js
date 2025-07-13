@@ -7,7 +7,7 @@ const path = require('path')
 const fs = require('fs').promises
 const server = http.createServer(app);
 const { Server } = require('socket.io');
-
+const PORT=process.env.PORT || 8000;
 const io = new Server(server, {
   cors: {
     origin: '*',
@@ -252,6 +252,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(8000, () => {
-  console.log('Server is running on port 8000');
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
