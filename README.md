@@ -34,6 +34,13 @@ A real-time multiplayer Tic-Tac-Toe game built with React, Node.js, and Socket.i
 ###ScreenShots
 <img width="1882" height="840" alt="Screenshot 2025-07-13 141548" src="https://github.com/user-attachments/assets/86e5ad4d-d5d5-4ac6-9c8b-2c6c2b061f1c" />
 
+<img width="1874" height="781" alt="Screenshot 2025-07-13 141603" src="https://github.com/user-attachments/assets/602db91c-e2f5-4def-9f80-0c1ec31fdb0c" />
+
+<img width="1517" height="807" alt="Screenshot 2025-07-13 141656" src="https://github.com/user-attachments/assets/ef014c92-33d6-479f-9d9c-9fac543d7c5d" />
+
+<img width="1775" height="798" alt="Screenshot 2025-07-13 141708" src="https://github.com/user-attachments/assets/0a52ea76-5cd5-41bf-9633-ea7b5e430e85" />
+
+
 ## 🚀 Live Demo
 
 **🎮 [Play Now](https://online-tic-tac-toe-frontend.onrender.com/)**
